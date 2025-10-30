@@ -13,7 +13,7 @@ public class Panel extends JPanel implements ActionListener{
     private boolean winLine = false;
     private boolean animate = false;
     private Timer timer;
-    private int yVelocity = 20;
+    private int yVelocity = 25;
     private int y = 100;
     private int[][] board;
     private int freeCol = 0;
@@ -257,3 +257,4 @@ public class Panel extends JPanel implements ActionListener{
         }
      }
 }
+
